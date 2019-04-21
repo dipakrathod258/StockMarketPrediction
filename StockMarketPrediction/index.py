@@ -4,6 +4,7 @@ import os
 from datetime import datetime
 
 path = r"C:\Users\DEEPAK\Desktop\Backup\intraQuarter"
+print(path)
 
 def Key_Stats(gather = "Total Debt/Equity (mrq)"):
     statspath =  path+"/_KeyStats"
